@@ -7,5 +7,21 @@
 class YountNinja:Ninja{
 public:
     YountNinja();
+
+    bool isAlive();
+
+    double distance(Character character);
+
+    void hit();
+
+    void getName();
+
+    void getLocation();
+
+    void print();
+
+    void move(Character character);
+
+    void slash(Character character);
 };
 #endif //SP_EX4_YOUNTNINJA_HPP

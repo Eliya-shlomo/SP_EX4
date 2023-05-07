@@ -10,11 +10,23 @@ private:
     int lives=11;
 public:
 
-
+    Cowboy();
     void shoot(Character character);
 
     bool hasboolets();
 
     void reload();
+
+    bool isAlive();
+
+    double distance(Character character);
+
+    void hit();
+
+    void getName();
+
+    void getLocation();
+
+    void print();
 };
 #endif //SP_EX4_COWBOY_HPP

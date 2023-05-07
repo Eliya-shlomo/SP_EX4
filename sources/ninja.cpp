@@ -3,3 +3,11 @@
 //
 
 #include "ninja.hpp"
+
+void move(Character character){
+    return;
+}
+
+void slash(Character character){
+    return;
+}

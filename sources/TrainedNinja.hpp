@@ -7,5 +7,21 @@
 class TrainedNinja: Ninja{
 public:
     TrainedNinja();
+
+    bool isAlive();
+
+    double distance(Character character);
+
+    void hit();
+
+    void getName();
+
+    void getLocation();
+
+    void print();
+
+    void move(Character character);
+
+    void slash(Character character);
 };
 #endif //SP_EX4_TRAINEDNINJA_HPP

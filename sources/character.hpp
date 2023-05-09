@@ -9,9 +9,14 @@
 #define SP_EX4_CHARACTER_HPP
 class Character {
 private :
-    Point point(double x,double y);
+    Point point(double x, double y);
     int lives;
     std::string name;
+
+protected:
+    Character(const std::string basicString, const Point point);
+
+    Character(const std::string basicString, const Point point);
 
 public:
 
@@ -26,7 +31,7 @@ public:
 
     void getLocation();
 
-    void print();
+    std::string print();
 
 
 

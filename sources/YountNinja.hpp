@@ -4,24 +4,9 @@
 #include "ninja.hpp"
 #ifndef SP_EX4_YOUNTNINJA_HPP
 #define SP_EX4_YOUNTNINJA_HPP
-class YountNinja:Ninja{
+class YountNinja:public Ninja{
 public:
-    YountNinja();
+    YountNinja(const std::string name,const Point location);
 
-    bool isAlive();
-
-    double distance(Character character);
-
-    void hit();
-
-    void getName();
-
-    void getLocation();
-
-    void print();
-
-    void move(Character character);
-
-    void slash(Character character);
 };
 #endif //SP_EX4_YOUNTNINJA_HPP

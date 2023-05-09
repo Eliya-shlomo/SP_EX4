@@ -13,8 +13,10 @@ private:
     int lives=11;
 public:
 
+    Ninja(const std::string name,const Point location);
+
     void move(Character character);
 
-    void slash(Character character);
+    void slash(Character &character);
 };
 #endif //SP_EX4_NINJA_HPP

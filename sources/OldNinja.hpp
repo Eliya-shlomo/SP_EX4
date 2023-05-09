@@ -4,24 +4,11 @@
 #include "ninja.hpp"
 #ifndef SP_EX4_OLDNINJA_HPP
 #define SP_EX4_OLDNINJA_HPP
-class OldNinja: Ninja{
+
+class OldNinja:public Ninja{
 
 public:
-    OldNinja();
-    bool isAlive();
+    OldNinja(const std::string name,const Point location);
 
-    double distance(Character character);
-
-    void hit();
-
-    void getName();
-
-    void getLocation();
-
-    void print();
-
-    void move(Character character);
-
-    void slash(Character character);
 };
 #endif //SP_EX4_OLDNINJA_HPP

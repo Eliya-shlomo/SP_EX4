@@ -4,42 +4,20 @@
 
 #include "cowboy.hpp"
 
-Cowboy::Cowboy(){
 
-};
 
-void shoot(Character character){
-    return;
-}
+    Cowboy::Cowboy(const string name, const Point location) : Character(name, location) {
 
-bool hasboolets(){
-    return true;
-}
+    }
 
-void reload(){
-    return;
-}
+    void shoot(Character &character) {
+        return;
+    }
 
-bool isAlive(){
-    return true;
-}
+    bool hasboolets() {
+        return true;
+    }
 
-double distance(Character character){
-    return 1;
-}
-
-void hit(){
-    return;
-}
-
-void getName(){
-    return;
-}
-
-void getLocation(){
-    return;
-}
-
-void print(){
-    return;
-}
+    void reload() {
+        return;
+    }

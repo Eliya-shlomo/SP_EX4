@@ -7,7 +7,7 @@
 Point::Point(double x, double y){
 
 }
-double distance(Point one, Point two){
+double distance(Point one){
     return 1;
 }
 

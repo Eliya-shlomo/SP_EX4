@@ -4,10 +4,14 @@
 
 #include "ninja.hpp"
 
+Ninja::Ninja(const std::string name, const Point location)  : Character(name, location){
+
+}
+
 void move(Character character){
     return;
 }
 
-void slash(Character character){
+void slash(Character &character){
     return;
 }

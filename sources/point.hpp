@@ -18,7 +18,7 @@ public:
 
     Point();
 
-    double distance(Point one, Point two);
+    double distance(Point one);
 
     void print(Point point);
 

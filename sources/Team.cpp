@@ -1,25 +1,30 @@
-//
-// Created by eliya on 07/05/2023.
-//
-
 #include "Team.hpp"
+using namespace ariel;
 
-Team::Team(Character *leader) {
 
-};
-Team team_A();
-Team team_B();
-Team SmartTeam();
 
-void add(Character* character){
+Team :: Team(Character *leader){
+
+}
+
+
+void Team:: add(Character *member) {
     return;
 }
-void attack(Team* enemy){
+
+
+void Team::attack(Team *other) {
     return;
 }
-int stillAlive(){
-    return 1;
+
+int Team::stillAlive()const {
+    return 0;
 }
-void print() {
+
+void Team::print() {
+    return;
+}
+
+Team::~Team() {
     return;
 }

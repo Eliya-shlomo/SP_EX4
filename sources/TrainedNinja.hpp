@@ -4,9 +4,12 @@
 #include "ninja.hpp"
 #ifndef SP_EX4_TRAINEDNINJA_HPP
 #define SP_EX4_TRAINEDNINJA_HPP
-class TrainedNinja: public Ninja{
-public:
-    TrainedNinja(const std::string name,const Point location);
+namespace ariel {
+    class TrainedNinja : public Ninja {
 
+    public:
+        TrainedNinja(string name, Point location): Ninja(name,location,120,12){}
+
+    };
 };
 #endif //SP_EX4_TRAINEDNINJA_HPP

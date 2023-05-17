@@ -1,33 +1,30 @@
-//
-// Created by eliya on 07/05/2023.
-//
-
 #include "character.hpp"
+using namespace std;
+using namespace ariel;
+Character::Character(string name, Point &location,int lives): name(name), location(location), lives(lives){
+    return;
+}
 
-bool isAlive(){
+bool Character::isAlive()const {
     return true;
 }
 
-double distance(Character character){
-    return 1;
+double Character::distance(const Character *c) {
+    return 0.0;
 }
 
-void hit(){
+void Character::hit(int) {
     return;
 }
 
-void getName(){
-    return;
-}
-
-void getLocation(){
-    return;
-}
-
-std::string print(){
+string Character::getName() {
     return "";
 }
 
-Character::Character(const std::string basicString, const Point point) {
+Point Character::getLocation()const {
+    return Point(0, 0);
+}
 
+string Character::print() {
+    return "";
 }

@@ -1,23 +1,21 @@
-//
-// Created by eliya on 07/05/2023.
-//
+
 
 #include "cowboy.hpp"
+using namespace ariel;
 
 
 
-    Cowboy::Cowboy(const string name, const Point location) : Character(name, location) {
 
-    }
 
-    void shoot(Character &character) {
-        return;
-    }
 
-    bool hasboolets() {
-        return true;
-    }
 
-    void reload() {
-        return;
-    }
+
+void Cowboy::shoot(Character *) {
+
+}
+
+
+
+string Cowboy::print() {
+    return "";
+}

@@ -4,9 +4,11 @@
 #include "ninja.hpp"
 #ifndef SP_EX4_YOUNTNINJA_HPP
 #define SP_EX4_YOUNTNINJA_HPP
-class YountNinja:public Ninja{
-public:
-    YountNinja(const std::string name,const Point location);
+namespace ariel {
+    class YoungNinja : public Ninja {
+    public:
+        YoungNinja(string, Point): Ninja(name,location,100,14){}
 
+    };
 };
 #endif //SP_EX4_YOUNTNINJA_HPP

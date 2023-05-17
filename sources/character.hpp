@@ -7,35 +7,46 @@
 
 #ifndef SP_EX4_CHARACTER_HPP
 #define SP_EX4_CHARACTER_HPP
-class Character {
-private :
-    Point point(double x, double y);
-    int lives;
-    std::string name;
+using namespace std;
 
-protected:
-    Character(const std::string basicString, const Point point);
+namespace ariel {
+    class Character {
+    protected:
 
-    Character(const std::string basicString, const Point point);
-
-public:
+        string name;
 
 
-    bool isAlive();
+        Point location;
 
-    double distance(Character character);
 
-    void hit();
-
-    void getName();
-
-    void getLocation();
-
-    std::string print();
+        int lives;
 
 
 
+    public:
 
+        Character(string name, Point &location, int lives);
+
+        virtual bool isAlive()const;
+
+        virtual double distance(const Character *c);
+
+        virtual void hit(int);
+
+        virtual string getName();
+
+        virtual Point getLocation() const;
+
+        virtual string print();
+
+        int getlive(){
+            return lives;
+        }
+
+
+        virtual ~Character()=default;
+
+    };
 
 };
 #endif //SP_EX4_CHARACTER_HPP

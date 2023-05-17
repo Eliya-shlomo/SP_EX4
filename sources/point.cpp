@@ -3,18 +3,33 @@
 //
 
 #include "point.hpp"
+using namespace ariel;
 
-Point::Point(double x, double y){
+Point::Point(){
 
 }
-double distance(Point one){
+Point::Point(double x, double y){
+    this->x=x;
+    this->y=y;
+}
+double Point:: distance(const Point one){
     return 1;
 }
 
-void print(Point point){
+void Point:: print(Point point){
     return;
 }
 
-Point moveTowords(Point origin, Point distance, double dist){
+Point Point:: moveTowords(Point origin, Point distance, double dist){
     return Point(0,0);
+}
+int Point:: getx(){
+    return this->x;
+}
+int Point:: gety(){
+    return this->y;
+}
+
+Point Point::moveTowards(Point point, Point point1, double d) {
+    return Point();
 }

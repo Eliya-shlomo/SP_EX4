@@ -10,20 +10,11 @@
 #include <sstream>
 #include <stdexcept>
 #include <cassert>
-#include "sources/character.hpp"
-#include "sources/ninja.hpp"
-#include "sources/point.hpp"
-#include "sources/OldNinja.hpp"
-#include "sources/Team.hpp"
-#include "sources/YountNinja.hpp"
-#include "sources/TrainedNinja.hpp"
-#include "sources/cowboy.hpp"
-
 using namespace std;
 
 #include "sources/Team.hpp" //no need for other includes
 
-
+using namespace ariel;
 
 
 int main() {
@@ -36,9 +27,9 @@ int main() {
 
     sushi->move(tom);
     sushi->slash(tom);
-
     Team team_A(tom);
-    team_A.add(new YountNinja("Yogi", Point(64,57)));
+    team_A.add(new YoungNinja ("Yogi", Point(64,57)));
+
 
     // Team b(tom); should throw tom is already in team a
 

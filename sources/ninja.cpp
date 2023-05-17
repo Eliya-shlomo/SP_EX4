@@ -3,15 +3,18 @@
 //
 
 #include "ninja.hpp"
+using namespace ariel;
 
-Ninja::Ninja(const std::string name, const Point location)  : Character(name, location){
 
-}
 
-void move(Character character){
+void Ninja::move( Character *c) {
     return;
 }
 
-void slash(Character &character){
+void Ninja::slash( Character *c) {
     return;
+}
+
+string Ninja::Print()  {
+    return "";
 }

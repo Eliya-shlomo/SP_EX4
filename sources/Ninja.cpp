@@ -36,3 +36,4 @@ string Ninja::print() const  {
     }
     return " name: (" + getName() + "), location: " + getLocation().toString();
 }
+;

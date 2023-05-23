@@ -37,4 +37,4 @@ Point Character::getLocation()const {
     return this->location;
 }
 
-
+;

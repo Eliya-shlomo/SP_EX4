@@ -30,3 +30,4 @@ public:
 
 #endif //SP_Y2S2M4_SMARTTEAM_HPP
 #endif //SP_EX4_SMARTTEAM_HPP
+;

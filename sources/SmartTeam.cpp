@@ -108,3 +108,4 @@ void SmartTeam::attack(Team *other_team) {
        }
 
 }
+;

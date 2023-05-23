@@ -70,3 +70,4 @@ namespace ariel {
 
 };
 #endif //SP_EX4_CHARACTER_HPP
+;

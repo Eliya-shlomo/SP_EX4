@@ -36,3 +36,4 @@ namespace ariel {
     };
 };
 #endif //SP_EX4_POINT_HPP
+;

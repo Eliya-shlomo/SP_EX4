@@ -72,5 +72,5 @@ using namespace ariel;
         return other->getTeamMembers().at(j);
     }
 
-
+;
 

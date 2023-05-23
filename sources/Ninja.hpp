@@ -24,3 +24,4 @@ namespace ariel {
     };
 };
 #endif //SP_EX4_NINJA_HPP
+;

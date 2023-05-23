@@ -48,3 +48,4 @@ std::string Point::toString() {
 double Point:: distance(const Point other){
     return sqrt(pow(this->x - other.x, 2) + pow(this->y - other.y, 2));
 }
+;

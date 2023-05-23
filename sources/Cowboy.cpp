@@ -27,3 +27,4 @@ string Cowboy::print() const {
         return  " name: (" + getName() + "), location: " + getLocation().toString();
     }
 }
+;

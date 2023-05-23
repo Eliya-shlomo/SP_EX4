@@ -4,7 +4,7 @@
 
 #ifndef SP_EX4_OLDNINJA_HPP
 #define SP_EX4_OLDNINJA_HPP
-#include "ninja.hpp"
+#include "Ninja.hpp"
 namespace ariel {
     class OldNinja : public Ninja {
 

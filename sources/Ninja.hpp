@@ -5,22 +5,21 @@
 
 #ifndef SP_EX4_NINJA_HPP
 #define SP_EX4_NINJA_HPP
-#include "character.hpp"
+#include "Character.hpp"
 
 namespace ariel {
     class Ninja : public Character {
     private:
-    protected:
         int speed;
     public:
 
         Ninja(string name, Point location,int lives,int speed): Character(name, location, lives), speed(speed)  {}
 
-        void move( Character *c);
+        void move( Character *other);
 
-        void slash(Character *c);
+        void slash(Character *other);
 
-        string Print();
+        string print () const override;
 
     };
 };

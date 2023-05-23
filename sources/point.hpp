@@ -5,6 +5,8 @@
 #ifndef SP_EX4_POINT_HPP
 #define SP_EX4_POINT_HPP
 
+#include <string>
+
 namespace ariel {
     class Point {
     private:
@@ -22,14 +24,15 @@ namespace ariel {
 
         void print(Point point);
 
-        Point moveTowords(Point origin, Point distance, double dist);
+        static Point moveTowards( Point curr,  Point other, double dist);
 
         int getx();
 
         int gety();
 
+        std::string toString();
 
-        static Point moveTowards(Point point, Point point1, double d);
+
     };
 };
 #endif //SP_EX4_POINT_HPP
